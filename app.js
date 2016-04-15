@@ -6,9 +6,14 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
+//cors
+var cors = require('cors');
+
 var app = express();
 
 app.use(logger('dev'));
+
+app.use(cors());
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
