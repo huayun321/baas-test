@@ -1,6 +1,6 @@
 {
   "mongodb": {
-    "host": "mongodb://localhost/lottery"
+    "host": "mongodb://localhost/lottery-test"
   }
 
 }
